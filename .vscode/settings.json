@@ -1,0 +1,12 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "45345",
+            "group": "edasd",
+            "database": "${workspaceFolder:SwiftStream}/cmd/oss-service/data/swift.db"
+        }
+    ]
+}

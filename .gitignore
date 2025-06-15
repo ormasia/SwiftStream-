@@ -1,0 +1,8 @@
+# 或者只屏蔽 cmd/oss-service/data 目录
+# cmd/oss-service/data/
+
+# 如果只想屏蔽特定文件类型，可以这样写：
+**/data/*.db
+**/data/*.db-*
+**/data/files/
+**/data/uploads/
